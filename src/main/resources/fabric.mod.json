@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "liteboost",
+  "version": "${version}",
+  "name": "LiteBoost",
+  "description": "Tiny, no-mixin performance tuner. Applies lighter video settings before the game starts.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "preLaunch": [
+      "com.liteboost.LiteBoost"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.4",
+    "java": ">=17"
+  }
+}
